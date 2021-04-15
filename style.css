@@ -1,4 +1,4 @@
-html, body{
+html{
     height: 100%;
 }
 
@@ -91,6 +91,9 @@ html, body{
 }
 
 @media (max-width: 768px){
+    .container-fluid{
+        margin: 400px 0;
+    }
     .card.left-card{
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -106,7 +109,7 @@ html, body{
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-    .card{
+    /*.card{
         top: 40vh;
-    }
+    }*/
 }
