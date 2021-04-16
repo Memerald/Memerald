@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/memerald/memerald)
-- Live Site URL: [Add live site URL here](zen-gates-03e5c7.netlify.app)
+- Solution URL: [https://github.com/memerald/memerald]()
+- Live Site URL: [zen-gates-03e5c7.netlify.app]()
 
 ## My process
 
