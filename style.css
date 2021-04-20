@@ -1,9 +1,8 @@
-html{
+html, body{
     height: 100%;
 }
 
 .container-fluid{
-/*     height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +56,7 @@ html{
 
 /*BUTTONS*/
 
-#round-btn{
+.card .btn{
     font-family: 'Lexend Deca', sans-serif;
     border-radius: 50px;
     mix-blend-mode: screen;
@@ -65,7 +64,7 @@ html{
     margin-bottom: 25px;
 }
 
-#round-btn:hover{
+.card button:hover{
     background-color: transparent;
     color: hsl(0, 0%, 95%);
     border: solid 2px;
@@ -109,7 +108,9 @@ html{
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-    /*.card{
-        top: 40vh;
-    }*/
 }
+
+@media (min-width: 769px){
+    .container-fluid{
+        height: 100vh;
+    }
