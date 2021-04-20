@@ -91,7 +91,7 @@ html, body{
 
 @media (max-width: 768px){
     .container-fluid{
-        margin: 400px 0;
+        margin: 30px 0;
     }
     .card.left-card{
         border-top-left-radius: 10px;
